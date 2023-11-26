@@ -1,0 +1,58 @@
+/* Header.css */
+@media (max-width: 768px) {
+    /* Mobile styles */
+  
+    /* Center logo and move Sign In button to the right */
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .flex:nth-child(1) {
+      margin-bottom: 1rem;
+    }
+  
+    /* Add margin between logo and Sign In button */
+    .flex:nth-child(2) {
+      margin-top: 1rem;
+    }
+  
+    /* Mobile menu icon styles */
+    .menu-icon {
+      display: inline-block;
+    }
+  
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+  
+    .open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+  
+    .open .bar:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+  
+    /* Add styles for mobile menu (Hamburger) */
+    .menu-items {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-open .menu-items {
+      display: flex;
+    }
+  
+    /* Additional mobile styles can be added as needed */
+  }
+  

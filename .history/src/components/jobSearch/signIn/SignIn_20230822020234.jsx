@@ -1,0 +1,41 @@
+import React from 'react';
+// import './SignIn.css'; // Add your additional CSS file for custom styling
+
+const SignIn = () => {
+  return (
+    <div className="flex justify-center items-center h-screen w-2/4 mx-auto mt-2">
+      <div className="bg-white p-8  border-solid border-gray-400 rounded-lg shadow-md">
+        <h2 className="text-2xl font-semibold mb-4">
+          Ready to take the next step?
+        </h2>
+        <p className="text-gray-500 mb-6">
+          Create an account or sign in.
+        </p>
+        <p className="text-sm text-gray-400 mb-6">
+          By creating an account or logging in, you understand and agree to Indeed's Terms. You also acknowledge our Cookie and Privacy policies. You will receive marketing messages from Indeed and may opt out at any time by following the unsubscribe link in our messages, or as detailed in our terms.
+        </p>
+        <button className="bg-blue-500 text-white rounded-full py-2 px-4 mb-4 w-full hover:bg-blue-600">
+          Continue with Google
+        </button>
+        <button className="bg-black text-white rounded-full py-2 px-4 mb-4 w-full hover:bg-gray-800">
+          Continue with Apple
+        </button>
+        <div className="text-center text-gray-500 text-sm mb-4">OR</div>
+        <div className="mb-4">
+          <label htmlFor="email" className="text-gray-600">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            className="w-full border rounded-lg p-2 focus:outline-none focus:ring focus:border-blue-400"
+            placeholder="Enter your email"
+          />
+        </div>
+        <button className="bg-blue-500 text-white rounded-full py-2 px-4 w-full hover:bg-blue-600">
+          Continue
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default SignIn;

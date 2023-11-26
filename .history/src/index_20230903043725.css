@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  color: #333; /* Text color */
+}
+
+/* Apply a subtle shadow to the entire page for depth */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 14px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* scrollToTop.css */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff !important;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  background-color: #0056b3;
+}
+
+/* Footer.css */
+.footer {
+  background-color: #333; /* Set the background color to match the website */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Add some padding to the top and bottom */
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly horizontally */
+  align-items: center; /* Center items vertically */
+  flex-wrap: wrap; /* Allow content to wrap to a new line on smaller screens */
+}
+
+.copyright {
+  flex-grow: 1; /* Allow this item to grow to fill available space */
+}
+
+.location {
+  display: flex; /* Display the location icon and address horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.location-icon {
+  margin-right: 8px; /* Add some space between the icon and address */
+}

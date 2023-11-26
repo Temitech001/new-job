@@ -1,0 +1,73 @@
+// PostJob.js
+
+import React, { useState } from 'react';
+
+const PostJob = () => {
+  const [jobData, setJobData] = useState({
+    title: '',
+    description: '',
+    company: '',
+    datePosted: '',
+    salaryRange: '',
+    jobType: '',
+    location: 'Remote',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setJobData({
+      ...jobData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Add code to save jobData (with generated ID) to your backend or data store
+    // Reset the form after submission
+    setJobData({
+      title: '',
+      description: '',
+      company: '',
+      datePosted: '',
+      salaryRange: '',
+      jobType: '',
+      location: 'Remote',
+    });
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="bg-white p-8 rounded-lg shadow-md w-full md:w-2/3 lg:w-1/2 xl:w-1/3">
+        <h2 className="text-2xl font-semibold mb-4">Post a Job</h2>
+        <form onSubmit={handleSubmit}>
+          <div className="mb-4">
+            <label htmlFor="title" className="block text-gray-700 font-medium mb-2">
+              Job Title
+            </label>
+            <input
+              type="text"
+              id="title"
+              name="title"
+              value={jobData.title}
+              onChange={handleInputChange}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200 focus:outline-none"
+              required
+            />
+          </div>
+          {/* Add similar input fields for other job details */}
+          <div className="mb-4">
+            <button
+              type="submit"
+              className="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600"
+            >
+              Post Job
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};
+
+export default PostJob;

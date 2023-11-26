@@ -1,0 +1,91 @@
+/* JobSearch.css */
+
+/* Container for the entire job search component */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Input containers with labels */
+  .relative {
+    position: relative;
+    margin: 0.5rem;
+  }
+  
+  /* Labels */
+  label {
+    /* position: absolute; */
+    left: 0; /* Adjust the label's horizontal position */
+    top: 50%; /* Vertically center the label */
+    transform: translateY(-50%);
+    color: #333;
+    font-weight: bold;
+    font-size: 0.875rem;
+  }
+  
+  /* Inputs */
+  input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 2.5rem 0.75rem 2.5rem; /* Adjust the padding for width and space after label */
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Style inputs on focus */
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Button */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style button on hover */
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style button on active (clicked) */
+  button:active {
+    background-color: #207cca;
+  }
+  
+  /* Suggestions */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  /* Style list items on hover */
+  li:hover {
+    color: #3498db;
+  }
+  
+  /* Adjust the position of the suggestions container */
+  .absolute.z-10.mt-2 {
+    top: calc(100% + 10px); /* Adjust the value as needed for vertical position */
+  }
+  

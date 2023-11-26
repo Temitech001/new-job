@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "title": "Dispatcher",
+    "description": "Coordinate and schedule transportation for shipments, ensuring timely delivery\n Manage fleet resources and optimize routes for efficient transportation",
+    "company": "Ready Logistics llc ",
+    "datePosted": "August 23, 2023",
+    "salaryRange": "$40,000 - $100,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+  {
+    "id": 2,
+    "title": "Tax Filing Implementation Lead - virtual",
+    "description": "Communicate clear and effectively with both external clients and internal groups\n Ability to manage multiple project plans and projects at one time.",
+    "company": "Alight",
+    "datePosted": "August 21, 2023",
+    "salaryRange": "$55,800 - $75,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+  {
+    "id": 3,
+    "title": "Secretary Lead - Bishop Lewis Reentry Center",
+    "description": "Secretary Lead - Bishop Lewis Reentry Center",
+    "company": "State of Washington Dept. of Corrections.",
+    "datePosted": "August 22, 2023",
+    "salaryRange": "$69,000 - $85,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+  {
+    "id": 4,
+    "title": "Website Designer",
+    "description": "Develop and maintain WordPress-based websites for clients across various industries.\n Customize themes and plugins to meet clients' specific requirements and design preferences.",
+    "company": "Mubi Geo Inc.",
+    "datePosted": "August 21, 2023",
+    "salaryRange": "$60,000 - $65,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+  {
+    "id": 5,
+    "title": "WordPress Development Intern",
+    "description": "Sevens J's Digital is seeking a talented and dedicated WordPress Intern. \n This internship offers flexible working hours, allowing you to balance your studies ",
+    "company": "Sevens Digital .",
+    "datePosted": "August 20, 2023",
+    "salaryRange": "$40,000 - $50,000",
+    "location": "Remote",
+    "jobType": "Part-Time"
+  },
+  {
+    "id": 6,
+    "title": "Backend Developer",
+    "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+    "company": "Web Services Co.",
+    "datePosted": "August 10, 2023",
+    "salaryRange": "$70,000 - $90,000",
+    "location": "Remote",
+    "jobType": "Part-Time"
+  }
+  ]
+  

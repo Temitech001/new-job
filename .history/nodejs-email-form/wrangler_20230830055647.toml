@@ -1,0 +1,14 @@
+name = "job-site"
+type = "webpack"
+account_id = "your-account-id"
+workers_dev = true
+
+[build]
+command = "npm run build" # If you need to build your Workers script
+
+[site]
+bucket = "./client/build" # Set this to the build directory of your React app
+entry-point = "workers-site"
+
+[env.production]
+name = "PRODUCTION"

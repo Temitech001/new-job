@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "company": "Tech Company Inc.",
+      "datePosted": "August 10, 2023",
+      "salaryRange": "$60,000 - $80,000",
+      "location": "New York, NY",
+      "jobType": "Full-Time"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+      "company": "Web Services Co.",
+      "datePosted": "August 12, 2023",
+      "salaryRange": "$70,000 - $90,000",
+      "location": "San Francisco, CA",
+      "jobType": "Part-Time"
+    }
+  ]
+  

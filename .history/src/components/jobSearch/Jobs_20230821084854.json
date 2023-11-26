@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Website Designer",
+      "description": "Develop and maintain WordPress-based websites for clients across various industries.\n Customize themes and plugins to meet clients' specific requirements and design preferences.",
+      "company": "Mubi Geo Inc.",
+      "datePosted": "August 21, 2023",
+      "salaryRange": "$60,000 - $65,000",
+      "location": "New York, NY",
+      "jobType": "Full-Time"
+    },
+    {
+      "id": 2,
+      "title": "WordPress Development Intern",
+      "description": "Sevens J's Digital is seeking a talented and dedicated WordPress Intern. \n This internship offers flexible working hours, allowing you to balance your studies ",
+      "company": "Sevens Digital .",
+      "datePosted": "August 20, 2023",
+      "salaryRange": "$40,000 - $50,000",
+      "location": "San Francisco, CA",
+      "jobType": "Part-Time"
+    },
+    {
+    "id": 3,
+      "title": "Backend Developer",
+      "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+      "company": "Web Services Co.",
+      "datePosted": "August 10, 2023",
+      "salaryRange": "$70,000 - $90,000",
+      "location": "San Francisco, CA",
+      "jobType": "Part-Time"
+    }
+  ]
+  

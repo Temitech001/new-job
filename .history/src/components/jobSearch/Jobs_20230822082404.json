@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Dispatcher",
+    "description": "Coordinate and schedule transportation for shipments, ensuring timely delivery\n Manage fleet resources and optimize routes for efficient transportation",
+    "company": "Ready Logistics llc ",
+    "datePosted": "August 23, 2023",
+    "salaryRange": "$40,000 - $100,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+    {
+      "id": 2,
+      "title": "WordPress Development Intern",
+      "description": "Sevens J's Digital is seeking a talented and dedicated WordPress Intern. \n This internship offers flexible working hours, allowing you to balance your studies ",
+      "company": "Sevens Digital .",
+      "datePosted": "August 20, 2023",
+      "salaryRange": "$40,000 - $50,000",
+      "location": "Remote",
+      "jobType": "Part-Time"
+    },
+    {
+    "id": 3,
+      "title": "Backend Developer",
+      "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+      "company": "Web Services Co.",
+      "datePosted": "August 10, 2023",
+      "salaryRange": "$70,000 - $90,000",
+      "location": "Remote",
+      "jobType": "Part-Time"
+    },
+    {
+      "id": 4,
+        "title": "Backend Developer",
+        "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+        "company": "Web Services Co.",
+        "datePosted": "August 10, 2023",
+        "salaryRange": "$70,000 - $90,000",
+        "location": "Remote",
+        "jobType": "Part-Time"
+      },
+      {
+        "id": 5,
+          "title": "Backend Developer",
+          "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+          "company": "Web Services Co.",
+          "datePosted": "August 10, 2023",
+          "salaryRange": "$70,000 - $90,000",
+          "location": "Remote",
+          "jobType": "Part-Time"
+        },
+        {
+          "id": 6,
+            "title": "Backend Developer",
+            "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+            "company": "Web Services Co.",
+            "datePosted": "August 10, 2023",
+            "salaryRange": "$70,000 - $90,000",
+            "location": "Remote",
+            "jobType": "Part-Time"
+          },
+          {
+            "id": 7,
+              "title": "Backend Developer",
+              "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+              "company": "Web Services Co.",
+              "datePosted": "August 10, 2023",
+              "salaryRange": "$70,000 - $90,000",
+              "location": "Remote",
+              "jobType": "Part-Time"
+            },
+            {
+              "id": 8,
+                "title": "Backend Developer",
+                "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+                "company": "Web Services Co.",
+                "datePosted": "August 10, 2023",
+                "salaryRange": "$70,000 - $90,000",
+                "location": "Remote",
+                "jobType": "Part-Time"
+              },    {
+                "id": 9,
+                  "title": "Backend Developer",
+                  "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+                  "company": "Web Services Co.",
+                  "datePosted": "August 10, 2023",
+                  "salaryRange": "$70,000 - $90,000",
+                  "location": "Remote",
+                  "jobType": "Part-Time"
+                },
+                {
+                  "id": 10,
+                    "title": "Backend Developer",
+                    "description": "Develop server-side logic and APIs to support front-end functionalities. \n Work with databases (SQL or NoSQL) to store and retrieve data efficiently. ",
+                    "company": "Web Services Co.",
+                    "datePosted": "August 10, 2023",
+                    "salaryRange": "$70,000 - $90,000",
+                    "location": "Remote",
+                    "jobType": "Part-Time"
+                  }
+  ]
+  

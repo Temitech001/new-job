@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Dispatcher",
+    "description": "Coordinate and schedule transportation for shipments, ensuring timely delivery\n Manage fleet resources and optimize routes for efficient transportation",
+    "company": "Ready Logistics llc ",
+    "datePosted": "August 23, 2023",
+    "salaryRange": "$40,000 - $100,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  },
+  {
+    "id": 2,
+    "title": "Tax Filing Implementation Lead - virtual",
+    "description": "Communicate clear and effectively with both external clients and internal groups\n Ability to manage multiple project plans and projects at one time.",
+    "company": "Alight",
+    "datePosted": "August 21, 2023",
+    "salaryRange": "$55,800 - $75,000",
+    "location": "Remote",
+    "jobType": "Full-Time"
+  }
+  ]
+  
